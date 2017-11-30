@@ -28,3 +28,6 @@
 
 // DOCUMENT READY FUNCTION
 
+var choices = ["rock","paper","scissors"];
+var computerchoice = [];
+
