@@ -4,10 +4,13 @@
 <head>
   <title>RPS Game</title>
   <link rel="stylesheet" type="text/css" href="style.css">
-
+  <script
+    src="https://code.jquery.com/jquery-1.12.4.min.js"
+    integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+    crossorigin="anonymous"></script>
   <!-- Link JQuery here -->
 
-  <script type="text/javascript" src="script.js"></script>
+  <script type="text/javascript" src="js/script.js"></script>
 
   <!-- Latest compiled and minified Bootstrap CSS -->
 
@@ -17,18 +20,13 @@
   <h1> <center> Rock, Paper, Scissors </center></h1>
   <p> <center>Type in "Rock, Paper, or Scissors" in the input text. Press "SHOOT". Pray. </center> </p>
   <center> <img src="http://static1.squarespace.com/static/55c4c443e4b0f8bc41c66fb5/55c89fbce4b08007be92a00c/56279798e4b016a0d78ee93a/1446741381638/?format=1000w" alt="RPS Image"> </center>
-  <center> <form>
-    Choose your destiny: <input type="text" name="fname">
-    <input type="submit" value="SHOOT">
-  </form>
 
-  <div class="container text-center">
+<input id="game">
+<button id="Submit"> Go! </button>
 
-
-
-
-
-  </div>
+<div id="result">
+  
+</div>
 
 </body>
 
